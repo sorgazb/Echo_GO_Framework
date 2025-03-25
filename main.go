@@ -15,6 +15,6 @@ func main() {
 	e.Use(middleware.LoggerWithConfig(middleware.LoggerConfig{
 		Format: "method=${method}, uri=${uri}, status=${status}, time=${latency_human}\n",
 	}))
-
+	//Hola
 	e.Start(":8080")
 }
